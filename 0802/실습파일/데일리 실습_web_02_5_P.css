@@ -1,0 +1,80 @@
+/* 아래 코드는 수정하지 않습니다. */
+body {
+  font-family: Arial;
+  width: 800px;
+}
+
+section {
+  float: left;
+  margin-left: 4px;
+}
+
+aside { 
+  float: right;
+  margin-right: 4px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+
+
+
+.article {
+  background-color: white; 
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+
+.header {
+  margin: 4px;
+  padding: 4px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 4px;
+
+}
+.nav {
+  margin: 4px;
+  padding: 4px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.footer {
+  margin: 4px;
+  padding: 4px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.section {
+  width: 490px;
+  height: 300px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+
+.aside {
+  width: 280px;
+  height: 300px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding-right: 10px
+}

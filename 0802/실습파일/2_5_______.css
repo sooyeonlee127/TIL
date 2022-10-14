@@ -1,0 +1,21 @@
+/* 아래 코드는 수정하지 않습니다. */
+body {
+  font-family: Arial;
+  width: 800px;
+}
+
+section {
+  float: left;
+  margin-left: 4px;
+}
+
+aside { 
+  float: right;
+  margin-right: 4px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

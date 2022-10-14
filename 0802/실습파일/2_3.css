@@ -1,0 +1,60 @@
+.box {
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+  }
+
+
+.one-line {
+  font-size: 0px
+}
+
+.black-box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.white-box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.pawn {
+  background-image: url('black_pawn.png');
+  background-size: cover;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.king {
+  background-image: url('white_king.png');
+  background-size: cover;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.queen {
+  background-image: url('white_queen.png');
+  background-size: cover;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.rook {
+  background-image: url('white_rook.png');
+  background-size: cover;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+
+

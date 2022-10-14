@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+        }
+        .innerbox {
+            background-color: darkred;
+            color: white;
+            height: 40px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        .signin-box {
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            width: 600px;
+            height: 400px;
+            border: 1px solid lightgray;
+            padding-top: 20px;
+
+        }
+        .signin {
+            border-bottom: 2px solid blue;
+            height: 30px;
+            width: inherit;
+            align-self: center;
+        }
+        .login-box {
+            display: flex;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+  <div class="box">
+
+    <div class="flex-container">
+      <div class="innerbox">Invalid Login or password</div>
+      <h2>HPHK 전용 GitLab 시스템</h2>
+    </div>
+    
+    <hr style="margin: 10px;">
+    
+    <div class="signin-box">
+
+
+      <div class="signin">sign in</div>
+      <div class="loginbox">
+        <div class="username">username or email</div>
+        <div class="password">Password</div>
+      </div>
+
+
+    </div>
+
+    <div class="bt"></div>
+
+  </div>
+
+
+
+
+</body>
+</html>
